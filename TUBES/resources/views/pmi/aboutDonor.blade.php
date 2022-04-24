@@ -39,3 +39,17 @@
         <li>Mengidap atau beresiko tinggi terhadap HIV/AIDS</li>
         <li>Dokter menyarankan untuk tidak menyumbangkan darah karena alasan kesehatan.</li>
     </ol>
+    <b>PEMESANAN TANGGAL PELAKSANAAN MU</b>
+    <ol>
+        <li>Melalui himbauan yang dikirimkan oleh UTDD</li>
+        <li>
+            Penyesuaian tanggal atau permintaan :
+            <ul>
+                <li>Untuk hari kerja : minimum 2 - 3 bulan sebelum pelaksanaan.</li>
+                <li>Untuk hari minggu : disesuaikan dengan jadwal MU yang ada di MU</li>
+            </ul>
+        </li>
+        <li>Jika jumlah calon donor 500 - 1000 konfirmasi min 6 bulan - 1 tahun</li>
+        <li>Konfirmasi ulang perlu dilaksanakan 2 minggu sebelum pelaksanaan MU</li>
+        <li>Bila terjadi pembatalan, mohon memeberitahukan segera ke bagian penjadwalan donor PMI DKI Jakarta.</li>
+    </ol>
