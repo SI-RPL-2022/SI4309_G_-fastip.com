@@ -26,3 +26,16 @@
     </ol>
     <b>JANGAN MENYUMBANGKAN DARAH JIKA :</b>
     <ol>
+        <li>Mempunyai penyakit jantung dan paru paru</li>
+        <li>Menderita kanker</li>
+        <li>Menderita tekanan dara tinggi (hipertensi)</li>
+        <li>Menderita kencing manis (diabetes militus)</li>
+        <li>Memiliki kecenderungan perdarahan abnormal atau kelainan darah lainnya.</li>
+        <li>Menderita epilepsi dan sering kejang</li>
+        <li>Menderita atau pernah menderita Hepatitis B atau C.</li>
+        <li>Mengidap sifilis</li>
+        <li>Ketergantungan Narkoba.</li>
+        <li>Kecanduan Minuman Beralkohol</li>
+        <li>Mengidap atau beresiko tinggi terhadap HIV/AIDS</li>
+        <li>Dokter menyarankan untuk tidak menyumbangkan darah karena alasan kesehatan.</li>
+    </ol>
