@@ -10,4 +10,19 @@
         lain yang membutuhkan. Semua orang dapat menjadi donor darah jika memenuhi persyaratan yang berlaku.</p>
     <b>APA SYARAT SYARAT UNTUK MENJADI DONOR DARAH ?</b>
     <ol>
-       
+        <li>Sehat jasmani dan rohani</li>
+        <li>Usia 17 sampai dengan 65 tahun.</li>
+        <li>Berat badan minimal 45 kg.</li>
+        <li>
+            Tekanan darah :
+            <ul>
+                <li>sistole 100 - 170</li>
+                <li>sistole 100 - 170</li>
+            </ul>
+        </li>
+        <li>Kadar haemoglobin 12,5g% s/d 17,0g%</li>
+        <li>Interval donor minimal 12 minggu atau 3 bulan sejak donor darah sebelumnya (maksimal 5 kali dalam 2 tahun)
+        </li>
+    </ol>
+    <b>JANGAN MENYUMBANGKAN DARAH JIKA :</b>
+    <ol>
