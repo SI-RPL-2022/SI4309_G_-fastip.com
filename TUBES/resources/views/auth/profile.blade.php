@@ -81,3 +81,28 @@
                                 @enderror
                             </div>
                         </div>
+                        <div class="col-3">
+                            <label>Konfirmasi Password</label>
+                        </div>
+                        <div class="col-9">
+                            <div class="form-group text-left">
+                                <input type="password" class="form-control" id="passwordConfirmation" placedholder="Konfirmasi Password" name="password_confirmation">
+                                @error('password_confirmation')
+                                <div class="text-danger">{{ $message }}</div>
+                                @enderror
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p-3">
+                        <div class="col-6 text-right">
+                            <button type="submit" class="btn btn-success">SIMPAN</button>
+                        </div>
+                        <div class="col-6 ">
+                            <a href="dashboard" type="button" class="btn btn-danger">BATAL</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+@stop

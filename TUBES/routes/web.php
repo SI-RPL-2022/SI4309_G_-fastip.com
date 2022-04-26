@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/profile', [\App\Http\Controllers\AuthController::class, 'updateProfile'])->name('profile.update');
+
+
