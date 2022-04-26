@@ -37,6 +37,23 @@
                             REGISTRASI
                         </h6>
                     </div>
+                </div>
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8 col-sm-12">
+                        <form action="{{ route('register') }}" method="post">
+                            @csrf
+                            <div class="form-group text-left text-left">
+                                <label class="text-light">Nama Lengkap</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group text-left">
+                                <label class="text-light">Alamat</label>
+                                <input type="text" class="form-control" id="address" name="address" required>
+                            </div>
+                         </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
