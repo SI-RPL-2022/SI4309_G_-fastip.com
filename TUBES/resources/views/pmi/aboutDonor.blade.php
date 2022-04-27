@@ -89,3 +89,21 @@
     </ol>
     <b>Kriteria umum yang ditetapkan PMI adalah antara lain:</b>
     <ul>
+        <li>calon donor harus berusia 17-60 tahun,</li>
+        <li>berat badan minimal 45 kg</li>
+        <li>tekanan darah 100-180 (sistole) dan 60-100 (diastole).</li>
+        <li>Jika berminat, calon donor dapat mengambil dan menandatangani formulir pendaftaran; lalu menjalani
+            pemeriksaan pendahuluan seperti kondisi berat badan, HB, golongan darah; serta dilanjutkan dengan
+            pemeriksaan dokter.
+        </li>
+        <li>Jika lulus, barulah darah dan contoh darah diambil.</li>
+        <li>Namun, harus diingat, demi menjaga kesehatan dan keamanan darah, individu yang antara lain memiliki kondisi
+            seperti alkoholik, penyakit hepatitis, diabetes militus, epilepsi, atau kelompok masyarakat risiko tinggi
+            mendapatkan AIDS serta mengalami sakit seperti demam atau influensa; baru saja dicabut giginya kurang dari
+            tiga hari; pernah menerima transfusi kurang dari setahun; begitu juga untuk yang belum setahun menato,
+            menindik, atau akupunktur; hamil; atau sedang menyusui untuk sementara waktu tidak dapat menjadi donor.
+        </li>
+    </ul>
+    <h3>Tunggu apa lagi, ayo ikut jadi donor darah!</h3>
+</div>
+@stop
