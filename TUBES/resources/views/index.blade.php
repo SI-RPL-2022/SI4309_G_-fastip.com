@@ -165,3 +165,29 @@
                                                 Kenapa Ketika Membutuhkan Darah Prosesnya Lama ?
                                             </p>
                                         </div>
+
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Proses permintaan darah transfusi di Palang Merah Indonesia (PMI) memerlukan
+                                                proses
+                                                <b>"Crossmatch"</b> yaitu uji serasi silang antara darah pasien dengan darah
+                                                donor
+                                                yang
+                                                diberikan. Crossmatch ini bertujuan untuk melihat apakah darah pasien sesuai
+                                                dengan
+                                                darah donor sehingga tidak ada efek yang merugikan pasien transfusi darah
+                                                tersebut.Secara keseluruhan darah pendonor baru siap diberikan kepada seseorang
+                                                itu
+                                                butuh waktu paling lama sekitar 3 jam
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+
+                                        <div class="card-header bg-red100" id="headingFour">
+                                            <p class="text-light mb-0" type="button" data-toggle="collapse"
+                                               data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                Apa Yang Harus Kita Persiapkan Sebelum Donor ?
+                                            </p>
+                                        </div>
