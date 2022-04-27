@@ -67,3 +67,25 @@
             baik.
         </li>
     </ol>
+    <b>BEBERAPA PANDUAN DONOR DARAH</b>
+    <ol>
+        <li>Tidur minimal 4 jam sebelum donor.</li>
+        <li>Makanlah 3 - 4 jam sebelum menyumbangkan darah. jangan menyumbangkan darah dengan perut kosong.</li>
+        <li>Minum lebih banyak dari biasanya pada hari mendonorkan darah (paling sedikit 3 gelas)</li>
+        <li>Setelah donor beristirahat paling sedikit 10 menit sambil menikmati makanan donor, sebelum kembali
+            beraktifitas.
+        </li>
+        <li>Kembali bekerja setelah donor darah tidak berbahaya untuk kesehatan.</li>
+        <li>Untuk menghindari bengkak di lokasi bekas jarum, hindari mengangkat benda berat selama 12 jam.</li>
+        <li>Banyak minum sampai 72 jam ke depan untuk mengembalikan stamina.</li>
+    </ol>
+    <b>APA YANG PERLU DISIAPKAN BILA AKAN MENYUMBANGKAN MELALUI MOBIL UNIT (MU)?</b>
+    <ol>
+        <li>Minimal jumlah calon donor 50 orang</li>
+        <li>Menyediakan ruangan yang luasnya sesuai dengan banyaknya donor, bersih, ventilasi cukup dan teduh (tidak di
+            bawah sinar matahari) dengan fasilitas air bersih dan tempat parkir untuk bus mobil unit.
+        </li>
+        <li>Menyediakan minimal 4 meja dan sejumlah kursi sesuai jumlah donor.</li>
+    </ol>
+    <b>Kriteria umum yang ditetapkan PMI adalah antara lain:</b>
+    <ul>
