@@ -51,7 +51,37 @@
                                 <label class="text-light">Alamat</label>
                                 <input type="text" class="form-control" id="address" name="address" required>
                             </div>
-                         </form>
+                            <div class="form-group text-left">
+                                <label for="blood_type" class="text-light ">Golongan Darah</label>
+                                <select class="form-control" id="blood_type" name="blood_type" required>
+                                    <option></option>
+                                    <option value="A">A</option>
+                                    <option value="AB">AB</option>
+                                    <option value="B">B</option>
+                                    <option value="O">O</option>
+                                </select>
+                            </div>
+                            <div class="form-group text-left">
+                                <label class="text-light">No Hp</label>
+                                <input type="text" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group text-left">
+                                <label class="text-light">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group text-left">
+                                <label class="text-light">Kata Sandi</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="p-5">
+                                <p class="text-light">Anda Sudah Punya Akun?
+                                    <a href="{{ route('login') }}" class="text-light">
+                                        <b>Login</b>
+                                    </a>
+                                </p>
+                                <button type="submit" class="btn btn-danger">Daftar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
