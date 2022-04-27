@@ -53,3 +53,17 @@
         <li>Konfirmasi ulang perlu dilaksanakan 2 minggu sebelum pelaksanaan MU</li>
         <li>Bila terjadi pembatalan, mohon memeberitahukan segera ke bagian penjadwalan donor PMI DKI Jakarta.</li>
     </ol>
+    <b>PELAKSANAN DONOR</b>
+    <ol>
+        <li>Jumlah calon donor yang didaftarkan minimal 75 orang</li>
+        <li>Jumlah perolehan donor yang berhasil diambil minimal 80% dari calon pendonor yang terdaftar.</li>
+        <li>Apabila pendonor yang berhasil diambil kurang dari 80%, maka akan kami ingatkan kepada kordinator instansi
+            tersebut per telpon untuk meningkatkan perolehannya dalam pelaksanaan berikutnya dan apabila dalam
+            pelaksanaan berikutnya masih kurang dari 80%, maka akan kami ingatkan kembali yang ketiga kalinya dan
+            selanjutnya kami sarankan untuk rombongan ke PMI DKI Jakarta atau bergabung dengan instansi lain yang
+            terdekat.
+        </li>
+        <li>Pelaksanaan Donor Darah untuk Mobil Unit di instansi maksimal 3 jam untuk menjaga kualitas darah yang
+            baik.
+        </li>
+    </ol>
