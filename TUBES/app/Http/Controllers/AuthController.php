@@ -67,6 +67,7 @@ class AuthController extends Controller
     public function me()
     {
         return view('auth.profile');
+<<<<<<< HEAD
     }
 
     public function updateProfile(Request $request)
@@ -88,3 +89,6 @@ class AuthController extends Controller
         return redirect('me')->with('success', 'Berhasil mengubah profile!');
     }
 }
+=======
+    }
+>>>>>>> 0bc5aafe953770afe6b47188a3dddb9345e7fc05

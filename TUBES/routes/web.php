@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('index');
 });
 
+=======
+>>>>>>> 0bc5aafe953770afe6b47188a3dddb9345e7fc05
 Route::get('/dashboard', function () {
     return view('index');
 })->name('dashboard');
@@ -27,6 +30,7 @@ Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register
 Route::get('/login', [\App\Http\Controllers\AuthController::class, 'index'])->name('login');
 Route::post('/login-process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login.process');
 
+<<<<<<< HEAD
 Route::middleware('auth')->group(function () {
     Route::get('/me', [\App\Http\Controllers\AuthController::class, 'me'])->name('me');
     Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
@@ -49,3 +53,5 @@ Route::get('/blood-stock', [\App\Http\Controllers\PMIController::class, 'bloodSt
 Route::get('/contact', [\App\Http\Controllers\PMIController::class, 'contact'])->name('contact');
 Route::get('/schedule', [\App\Http\Controllers\PMIController::class, 'schedule'])->name('schedule');
 Route::get('/find-friend', [\App\Http\Controllers\PMIController::class, 'findFriend'])->name('find-friend');
+=======
+>>>>>>> 0bc5aafe953770afe6b47188a3dddb9345e7fc05
