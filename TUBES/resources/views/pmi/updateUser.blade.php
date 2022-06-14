@@ -31,3 +31,12 @@
                     <div class="col-3">
                         <label>Golongan Darah</label>
                     </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <select class="form-control" id="bloodType" name="blood_type" required>
+                                <option></option>
+                                <option value="A" @if($user['blood_type'] === 'A') selected @endif>A</option>
+                                <option value="AB" @if($user['blood_type'] === 'AB') selected @endif>AB</option>
+                                <option value="B" @if($user['blood_type'] === 'B') selected @endif>B</option>
+                                <option value="O" @if($user['blood_type'] === 'O') selected @endif>O</option>
+                            </select>
