@@ -191,4 +191,18 @@
                                                 Apa Yang Harus Kita Persiapkan Sebelum Donor ?
                                             </p>
                                         </div>
-            
+                                        
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Kita memerlukan tidur yang nyenyak di malam sebelum mendonor, sarapan pagi atau
+                                                makan siang sebelum mendonor. Banyak minum seperti jus, susu sebelum mendonor.
+                                                Rileks saat mendonor, dan banyak minum setelah mendonor. Kita bisa melanjutkan
+                                                kegiatan setelah mendonor, asal hindari aktivitas fisik yang berat.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
