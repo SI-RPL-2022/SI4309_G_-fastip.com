@@ -18,3 +18,8 @@
                                 <option>O</option>
                             </select>
                         </div>
+                        </div>
+                    <div class="card-body py-0">
+                        <div class="form-group text-left">
+                            <label for="component">Komponen</label>
+                            <select class="form-control" id="component">
