@@ -44,6 +44,9 @@
                                 <option value="O" @if($user['blood_type'] === 'O') selected @endif>O</option>
                             </select>
                             </div>
+                            @error('blood_type')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
                     </div>
                     <div class="col-3">
                         <label>No Hp</label>
