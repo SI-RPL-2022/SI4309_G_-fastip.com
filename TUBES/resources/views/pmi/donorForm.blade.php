@@ -61,3 +61,22 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">GOLONGAN DARAH</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <select class="form-control" id="bloodType" name="blood_type" required>
+                                <option>A</option>
+                                <option>AB</option>
+                                <option>B</option>
+                                <option>O</option>
+                            </select>
+                            @error('blood_type')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
