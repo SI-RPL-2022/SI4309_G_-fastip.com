@@ -80,3 +80,17 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">BERAT BADAN</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="number" class="form-control" id="weight" name="weight" required>
+                            @error('weight')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
