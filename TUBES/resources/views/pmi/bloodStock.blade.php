@@ -28,3 +28,14 @@
                         </div>
                     </div>
                     <div class="card-body py-0">
+                        <div class="form-group text-left">
+                            <label for="province">Provinsi</label>
+                            <select class="form-control" id="province">
+                                <option>-Pilih Provinsi-</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-danger">CARI</button>
+                </form>
+            </div>
+        </div>
