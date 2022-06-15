@@ -27,6 +27,9 @@
                         <div class="form-group text-left">
                             <input type="text" class="form-control" id="address" name="address" value="{{ $user['address'] }}" required>
                             </div>
+                            @error('address')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
                     </div>
                     <div class="col-3">
                         <label>Golongan Darah</label>
