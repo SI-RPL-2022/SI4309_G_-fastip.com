@@ -26,3 +26,38 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">JENIS KELAMIN</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline1" name="gender" class="custom-control-input"
+                                   value="male" checked>
+                            <label class="custom-control-label" for="customRadioInline1">LAKI-LAKI</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="gender" class="custom-control-input"
+                                   value="female">
+                            <label class="custom-control-label" for="customRadioInline2">PEREMPUAN</label>
+                        </div>
+                        @error('gender')
+                        <div class="text-danger">{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">TEMPAT TANGGAL LAHIR</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="text" class="form-control" id="dob" name="dob" required>
+                            @error('dob')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
