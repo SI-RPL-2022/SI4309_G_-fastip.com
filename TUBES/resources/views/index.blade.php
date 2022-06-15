@@ -191,3 +191,68 @@
                                                 Apa Yang Harus Kita Persiapkan Sebelum Donor ?
                                             </p>
                                         </div>
+                                        
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                             data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Kita memerlukan tidur yang nyenyak di malam sebelum mendonor, sarapan pagi atau
+                                                makan siang sebelum mendonor. Banyak minum seperti jus, susu sebelum mendonor.
+                                                Rileks saat mendonor, dan banyak minum setelah mendonor. Kita bisa melanjutkan
+                                                kegiatan setelah mendonor, asal hindari aktivitas fisik yang berat.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mt-5">
+                        <a href="https://www.rhesusnegatif.com/">
+                            <img src="{{ asset('assets/files/poster.png') }}" alt="poster" class="img-fluid w-100">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function () {
+        let ctx = $('#chart');
+        let data = {
+            labels: ['A+', 'B+', 'O+', 'AB+', 'A-', 'B-', 'O-', 'AB-'],
+            datasets: [
+                {
+                    label: 'JUMLAH PENDONOR',
+                    borderWidth: 2,
+                    data: [700, 400, 200, 500, 100, 150, 600, 300],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(39, 174, 96, 0.2)',
+                        'rgba(93, 173, 226, 0.2)'
+                    ],
+                },
+            ]
+        };
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    })
+    </script>
+@stop
