@@ -17,6 +17,29 @@
                         <th scope="col">Alamat</th>
                         <th scope="col">Nomor Handphone</th>
                         <th scope="col">Riwayat Penyakit</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @if (isset($donors) and count($donors) > 0)
+                        @foreach($donors as $donor)
+                            <tr>
+                                <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $donor['user_id'] }}</td>
+                                <td>{{ $donor['schedule_id'] }}</td>
+                                <td>{{ $donor['name'] }}</td>
+                                <td>{{ $donor['gender'] }}</td>
+                                <td>{{ $donor['dob'] }}</td>
+                                <td>{{ $donor['blood_type'] }}</td>
+                                <td>{{ $donor['height'] }} / {{ $donor['weight'] }}</td>
+                                <td>{{ $donor['address'] }}</td>
+                                <td>{{ $donor['phone'] }}</td>
+                                <td>{{ $donor['disease_history'] }}</td>
+                            </tr>
+                        @endforeach
+                    @else
+                        <tr>
+                            <td colspan="11" class="text-center">Tidak Ada Data</td>
+                        </tr>
                     @endif
                     </tbody>
                 </table>
