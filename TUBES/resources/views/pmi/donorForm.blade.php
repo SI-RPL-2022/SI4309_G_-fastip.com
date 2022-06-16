@@ -94,3 +94,17 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">TINGGI BADAN</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="number" class="form-control" id="height" name="height" required>
+                            @error('height')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
