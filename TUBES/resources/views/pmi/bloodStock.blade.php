@@ -71,3 +71,16 @@
             </div>
         </div>
     </div>
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <div class="card h-100">
+                <div class="card-header bg-red100 text-light text-left">
+                    <b> JUMLAH PENDONOR </b> | PROVINSI ACEH
+                </div>
+                <div class="card-body p-1">
+                    <canvas id="chart" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
