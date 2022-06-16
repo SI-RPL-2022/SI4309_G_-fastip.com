@@ -56,3 +56,18 @@
                             </select>
                         </div>
                     </div>
+                    <a href="{{ route('find-friend') }}" type="button" class="btn btn-danger">CARI</a>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 mt-5 text-center">
+            <div class="card h-100">
+                <div class="card-header bg-red100 text-light">
+                    PETA LOKASI
+                </div>
+                <div class="card-body">
+                    <img src="{{ asset('assets/files/maps.png') }}" alt="gmaps" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
