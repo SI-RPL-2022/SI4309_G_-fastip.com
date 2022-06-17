@@ -37,3 +37,14 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <div class="card h-100">
+                    <div class="card-header bg-red100 text-light text-left">
+                        KEGIATAN MOBILE UNIT
+                    </div>
+                    <div class="card-body table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
