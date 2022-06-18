@@ -55,7 +55,10 @@
                     <div class="col-9">
                         <div class="form-group text-left">
                             <input type="text" class="form-control" id="phone" name="phone" value="{{ $user['phone'] }}" required>
-                            </div>
+                            @error('phone')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
                     </div>
                 </div>
                 <div class="row p-3">
