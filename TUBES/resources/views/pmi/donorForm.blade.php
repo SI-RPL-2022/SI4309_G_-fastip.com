@@ -144,3 +144,54 @@
                                     @enderror
                                 </div>
                             </div>
+
+                            <div class="col-md-4 col-sm-12 float-right">
+                                <div class="form-group justify-content-center align-items-center custom-radio custom-control-inline mr-0 float-right">
+                                    <label class="p-2">Desa</label>
+                                    <input type="text" class="form-control" id="village" name="village" required>
+                                    @error('village')
+                                    <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-12 float-right">
+                                <div class="justify-content-center align-items-center custom-radio custom-control-inline mr-0 float-right">
+                                    <label class="p-2">Kecamatan</label>
+                                    <input type="text" class="form-control" id="subDistrict" name="sub_district" required>
+                                    @error('sub_district')
+                                    <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">TELEPON</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="number" class="form-control" id="phone" name="phone" required>
+                            @error('phone')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">RIWAYAT PENYAKIT</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="form-group text-left">
+                            <input type="text" class="form-control" id="diseaseHistory" name="disease_history">
+                            @error('disease_history')
+                            <div class="text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                </div>
