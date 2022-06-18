@@ -108,3 +108,29 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-3">
+                        <label class="text-light">ALAMAT</label>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group text-left">
+                                    <input type="text" class="form-control" id="address" name="address" required>
+                                    @error('address')
+                                    <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-2 col-sm-12 float-right">
+                                <div class="form-group justify-content-center align-items-center custom-radio custom-control-inline mr-0 float-right">
+                                    <label class="p-2">RT</label>
+                                    <input type="text" class="form-control" id="rt" name="rt" required>
+                                    @error('rt')
+                                    <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
