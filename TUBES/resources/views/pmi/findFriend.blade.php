@@ -16,3 +16,12 @@
                         @endif
                     </tr>
                     </thead>
+                    <tbody>
+                    @if ($users !== null)
+                        @foreach($users as $user)
+                            <tr>
+                                <th scope="row">{{ $loop->iteration }}</th>
+                                <td>{{ $user['name'] }}</td>
+                                <td>{{ $user['address'] }}</td>
+                                <td>{{ $user['phone'] }}</td>
+                                <td>{{ $user['blood_type'] }}</td>
