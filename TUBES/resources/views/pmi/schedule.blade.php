@@ -57,3 +57,15 @@
                             </tr>
                             </thead>
                             <tbody>
+                            @if (isset($schedules) and count($schedules) > 0)
+                                @foreach($schedules as $schedule)
+                                    <tr>
+                                        <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $schedule['institute_name'] }}</td>
+                                        <td>{{ $schedule['address'] }}</td>
+                                        <td>{{ $schedule['time'] }}</td>
+                                        <td>{{ $schedule['donor_plan'] }}</td>
+                                        <td>
+                                            @if(auth()->check() and auth()->user()->isAdmin())
+                                                <a href="{{ url("schedule/{$schedule['id']}/donor") }}" type="button" class="btn btn-danger">Lihat</a>
+                                            @else
