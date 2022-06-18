@@ -20,16 +20,17 @@
                             @enderror
                         </div>
                     </div>
+                    <div class="col-3"> 
                     <div class="col-3">
                         <label>Alamat</label>
                     </div>
                     <div class="col-9">
                         <div class="form-group text-left">
                             <input type="text" class="form-control" id="address" name="address" value="{{ $user['address'] }}" required>
-                            </div>
                             @error('address')
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
+                        </div>
                     </div>
                     <div class="col-3">
                         <label>Golongan Darah</label>
@@ -43,13 +44,13 @@
                                 <option value="B" @if($user['blood_type'] === 'B') selected @endif>B</option>
                                 <option value="O" @if($user['blood_type'] === 'O') selected @endif>O</option>
                             </select>
-                            </div>
                             @error('blood_type')
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
+                        </div>
                     </div>
                     <div class="col-3">
-                        <label>No Hp</label>
+                    <label>No Hp</label>
                     </div>
                     <div class="col-9">
                         <div class="form-group text-left">
