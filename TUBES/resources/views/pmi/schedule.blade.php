@@ -13,3 +13,12 @@
                                 <label>Tanggal Donor</label>
                                 <input type="date" class="form-control" id="date" placeholder="">
                             </div>
+                        </div>
+                        <div class="card-body py-0">
+                            <div class="form-group text-left">
+                                <label for="province">Pilih Provinsi</label>
+                                <select class="form-control" id="province">
+                                    <option>-Pilih Provinsi-</option>
+                                </select>
+                            </div>
+                        </div>
