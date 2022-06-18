@@ -38,3 +38,9 @@
         }
     </style>
 </head>
+<body>
+<div class="bg-red text-center" style="padding: 20px">
+    <h2 class="m-0" style="padding-bottom: 20px;">Donor Darah</h2>
+    <div class="bg-white">
+        <h4 class="m-0" style="padding: 10px">{{ \Carbon\Carbon::parse($donor['schedule']['time'])->isoFormat('dddd, DD MMMM Y') }}</h4>
+        <hr>
