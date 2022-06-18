@@ -69,3 +69,24 @@
                                             @if(auth()->check() and auth()->user()->isAdmin())
                                                 <a href="{{ url("schedule/{$schedule['id']}/donor") }}" type="button" class="btn btn-danger">Lihat</a>
                                             @else
+                                                <form method="get" action="{{ route('donor.create') }}">
+                                                    <input type="hidden" name="schedule_id" value="{{ $schedule['id'] }}">
+                                                    <button type="submit" class="btn btn-danger">Daftar</button>
+                                                </form>
+                                            @endif
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @else
+                                <tr>
+                                    <td colspan="6" class="text-center">Tidak Ada Data</td>
+                                </tr>
+                            @endif
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@stop
