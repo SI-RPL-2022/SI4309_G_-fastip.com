@@ -25,3 +25,9 @@
                                 <td>{{ $user['address'] }}</td>
                                 <td>{{ $user['phone'] }}</td>
                                 <td>{{ $user['blood_type'] }}</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+@stop
