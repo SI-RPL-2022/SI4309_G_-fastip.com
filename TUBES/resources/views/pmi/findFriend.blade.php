@@ -27,10 +27,10 @@
                                 <td>{{ $user['blood_type'] }}</td>
                                 @if(auth()->check() and auth()->user()->isAdmin())
                                     <td>
-                                        <form method="post" action="{{ url("user/{$user['id']}") }}">
+                                        <form method="post" action="{{url("user/{$user['id']}") }}">
                                             @csrf
                                             @method('delete')
-                                            <a href="{{ url("user/{$user['id']}/edit") }}" type="button" class="btn btn-success m-2">Update</a>
+                                            <a href="{{url("user/{$user['id']}/edit") }}" type="button" class="btn btn-success m-2">Update</a>
                                             <button type="submit" class="btn btn-danger m-2">Delete</button>
                                         </form>
                                     </td>
