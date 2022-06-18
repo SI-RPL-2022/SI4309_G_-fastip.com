@@ -44,3 +44,16 @@
                     <div class="card-header bg-red100 text-light text-left">
                         KEGIATAN MOBILE UNIT
                     </div>
+                    <div class="card-body table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col" class="text-center">No.</th>
+                                <th scope="col" class="text-center">Nama Instansi</th>
+                                <th scope="col" class="text-center">Alamat</th>
+                                <th scope="col" class="text-center">Jam</th>
+                                <th scope="col" class="text-center">Rencana Donor</th>
+                                <th scope="col" class="text-center">Aksi</th>
+                            </tr>
+                            </thead>
+                            <tbody>
