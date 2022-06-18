@@ -22,3 +22,18 @@
                                 </select>
                             </div>
                         </div>
+                        <button type="submit" class="btn btn-danger">CARI</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 mt-5 text-center">
+                <div class="card h-100">
+                    <div class="card-header bg-red100 text-light">
+                        LOKASI MOBILE UNIT
+                    </div>
+                    <div class="card-body">
+                        <img src="{{ asset('assets/files/maps.png') }}" alt="gmaps" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
