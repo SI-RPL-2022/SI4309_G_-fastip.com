@@ -134,3 +134,13 @@
                                     @enderror
                                 </div>
                             </div>
+
+                            <div class="col-md-2 col-sm-12 float-right">
+                                <div class="justify-content-center align-items-center custom-radio custom-control-inline mr-0 float-right">
+                                    <label class="p-2">RW</label>
+                                    <input type="text" class="form-control" id="rw" name="rw" required>
+                                    @error('rw')
+                                    <div class="text-danger">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                            </div>
