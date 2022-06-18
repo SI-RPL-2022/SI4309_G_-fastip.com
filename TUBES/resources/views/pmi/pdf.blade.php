@@ -44,3 +44,20 @@
     <div class="bg-white">
         <h4 class="m-0" style="padding: 10px">{{ \Carbon\Carbon::parse($donor['schedule']['time'])->isoFormat('dddd, DD MMMM Y') }}</h4>
         <hr>
+        <table class="center text-left">
+            <tr>
+                <td colspan="6">
+                    <img src="{{ public_path('storage/blood.png') }}" height="150px" alt="donor">
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>ID</td>
+                            <td>:</td>
+                            <td>{{ $donor['id'] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>{{ $donor['name'] }}</td>
+                        </tr>
