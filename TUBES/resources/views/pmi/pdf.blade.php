@@ -61,3 +61,27 @@
                             <td>:</td>
                             <td>{{ $donor['name'] }}</td>
                         </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>{{ $donor['gender'] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td>{{ $donor['address'] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Golongan Darah</td>
+                            <td>:</td>
+                            <td>{{ $donor['blood_type'] }}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <img src="{{ public_path('storage/barcode.png') }}" style="padding: 10px;" height="50px" alt="barcode">
+    </div>
+</div>
+</body>
+</html>
