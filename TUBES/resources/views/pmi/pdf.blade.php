@@ -61,3 +61,13 @@
                             <td>:</td>
                             <td>{{ $donor['name'] }}</td>
                         </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>{{ $donor['gender'] }}</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td>{{ $donor['address'] }}</td>
+                        </tr>
