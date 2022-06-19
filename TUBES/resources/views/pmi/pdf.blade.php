@@ -71,3 +71,10 @@
                             <td>:</td>
                             <td>{{ $donor['address'] }}</td>
                         </tr>
+                        <tr>
+                            <td>Golongan Darah</td>
+                            <td>:</td>
+                            <td>{{ $donor['blood_type'] }}</td>
+                        </tr>
+                    </table>
+                </td>
