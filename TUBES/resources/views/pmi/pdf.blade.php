@@ -78,3 +78,10 @@
                         </tr>
                     </table>
                 </td>
+            </tr>
+        </table>
+        <img src="{{ public_path('storage/barcode.png') }}" style="padding: 10px;" height="50px" alt="barcode">
+    </div>
+</div>
+</body>
+</html>
