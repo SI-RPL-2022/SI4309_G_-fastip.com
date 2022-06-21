@@ -41,7 +41,21 @@
                             <button type="submit" class="btn btn-danger m-2">Delete</button>
                         </form>
                     </td>
-                    </tr>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>Jawa Barat</td>
+                    <td>081928776526</td>
+                    <td>O</td>
+                    <td>
+                        <form method="get" action="donor">
+                            <!--                            <input type="hidden" name="schedule_id" value="--><?php //echo $schedule['id'] ?><!--">-->
+                            <button type="submit" class="btn btn-success m-2">Update</button>
+                            <button type="submit" class="btn btn-danger m-2">Delete</button>
+                        </form>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
