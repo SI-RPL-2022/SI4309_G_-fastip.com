@@ -20,6 +20,13 @@
                     <td>Bandung</td>
                     <td>081776553445</td>
                     <td>A</td>
+                    <td>
+                        <form method="get" action="donor">
+<!--                        <input type="hidden" name="schedule_id" value="--><?php //echo $schedule['id'] ?><!--">-->
+                            <button type="submit" class="btn btn-success m-2">Update</button>
+                            <button type="submit" class="btn btn-danger m-2">Delete</button>
+                        </form>
+                    </td>
                 </tr>
                 </tbody>
             </table>
