@@ -205,3 +205,34 @@
                             <button type="button" class="btn btn-success" onclick="store()">
                                 SUBMIT
                             </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade bd-example-modal-lg" id="modal-dialog" tabindex="-1" role="dialog"
+                                 aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                    <div class="modal-content bg-red100">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Donor Darah</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                                                    onclick="download()">
+                                                <img src="{{ asset('assets/files/ic-download.png') }}" alt="image" height="24">
+                                            </button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <div class="row bg-grey10 rounded-bottom-custom m-2 p-3"
+                                                 style="border: 2px solid red; padding: 10px;border-bottom-left-radius: 75px;  border-bottom-right-radius: 75px;">
+                                                <div class="col-3">
+                                                    <img src="{{ asset('assets/files/blood.png') }}" alt="image" class="img-fluid">
+                                                </div>
+                                                <div class="col-9 float-left">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Id</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-id"></p>
+                                                        </div>
+                                                    </div>
