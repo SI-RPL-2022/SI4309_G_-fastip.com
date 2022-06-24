@@ -236,3 +236,25 @@
                                                             <p class="text-dark float-left" id="donor-id"></p>
                                                         </div>
                                                     </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Nama</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-name"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Jenis Kelamin</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-gender"></p>
+                                                        </div>
+                                                    </div>
