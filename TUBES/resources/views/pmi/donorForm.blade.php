@@ -195,3 +195,13 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row form-group">
+                    <div class="col-10">
+
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="form-group text-right">
+                            <button type="button" class="btn btn-success" onclick="store()">
+                                SUBMIT
+                            </button>
