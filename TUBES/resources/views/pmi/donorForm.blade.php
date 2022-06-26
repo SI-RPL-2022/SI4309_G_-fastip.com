@@ -279,3 +279,37 @@
                                                         <div class="col-7">
                                                             <p class="text-dark float-left" id="donor-phone"></p>
                                                         </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Golongan Darah</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-blood-type"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-8">
+                                                            <img src="{{ asset('assets/files/barcode.png') }}" alt="image"
+                                                                 class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <p class="text-left">Dengan ini menyatakan bersedia menjadi pendonor darah yang dilasanakan oleh website Donor
+                Darah : Save a Live</p>
+        </div>
+    </div>
