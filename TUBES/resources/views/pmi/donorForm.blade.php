@@ -258,3 +258,24 @@
                                                             <p class="text-dark float-left" id="donor-gender"></p>
                                                         </div>
                                                     </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Alamat</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-address"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <p class="text-dark float-left">Telepon</p>
+                                                        </div>
+                                                        <div class="col-1">
+                                                            <p class="text-dark float-left">:</p>
+                                                        </div>
+                                                        <div class="col-7">
+                                                            <p class="text-dark float-left" id="donor-phone"></p>
+                                                        </div>
