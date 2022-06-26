@@ -313,3 +313,35 @@
                 Darah : Save a Live</p>
         </div>
     </div>
+
+    <script>
+    let donor = {};
+    function store() {
+        const form = $('#form');
+        $.ajax({
+            type: 'POST',
+            url: "{{ route('donor.store') }}",
+            data: form.serialize(),
+            success: function (response) {
+                console.log(response);
+                donor = response.data;
+
+                $('#donor-id').html(donor.id);
+                $('#donor-name').html(donor.name);
+                $('#donor-gender').html(donor.gender);
+                $('#donor-address').html(donor.address);
+                $('#donor-phone').html(donor.phone);
+                $('#donor-blood-type').html(donor.blood_type);
+
+                $('#modal-dialog').modal('show');
+            }
+        });
+    }
+
+    function download()
+    {
+        window.open(`/donor/${donor['id']}/download`, '_blank')
+        window.location.href = '/schedule';
+    }
+    </script>
+@stop
