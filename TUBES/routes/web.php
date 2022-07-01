@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return redirect('dashboard');
 });
 
-Route::get('/dashboard', function () {
-    return view('index');
-})->name('dashboard');
+Route::get('/dashboard', [\App\Http\Controllers\PMIController::class, 'index'])->name('dashboard');
 
 Route::get('/registration', [\App\Http\Controllers\AuthController::class, 'registration'])->name('registration');
 Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register'])->name('register');
