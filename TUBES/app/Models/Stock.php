@@ -5,15 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Contact extends Model
+class Stock extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'utd_name',
-        'province',
-        'address',
-        'phone',
-        'fax',
+        'blood_type',
+        'component_id',
+        'province_id',
+        'value',
     ];
 }

@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Component;
 use App\Models\Contact;
 use App\Models\Donor;
+use App\Models\Province;
 use App\Models\Schedule;
+use App\Models\Stock;
 use App\Models\User;
 
 use Carbon\Carbon;
@@ -13,14 +16,54 @@ use niklasravnsborg\LaravelPdf\Facades\Pdf;
 
 class PMIController extends Controller
 {
+    public function index()
+    {
+        $stocks = Stock::groupBy('blood_type')
+            ->selectRaw('blood_type, sum(value) as stock')
+            ->get();
+
+        $data['components'] = Component::all();
+        $data['provinces'] = Province::all();
+
+        $data['stocks'] = $stocks;
+
+        return view('index', $data);
+    }
+
     public function aboutDonor()
     {
         return view('pmi.aboutDonor');
     }
 
-    public function bloodStock()
+    public function bloodStock(Request $request)
     {
-        return view('pmi.bloodStock');
+        $bloodType = $request->get('blood_type');
+        $componentId = $request->get('component');
+        $provinceId = $request->get('province');
+
+        $stocks = Stock::when($bloodType, function ($q) use ($bloodType) {
+            $q->where('blood_type', $bloodType);
+        })
+            ->when($componentId, function ($q) use ($componentId) {
+                $q->where('component_id', $componentId);
+            })
+            ->when($provinceId, function ($q) use ($provinceId) {
+                $q->where('province_id', $provinceId);
+            })
+            ->groupBy('blood_type')
+            ->selectRaw('blood_type, sum(value) as stock')
+            ->get();
+
+        $data['components'] = Component::all();
+        $data['provinces'] = Province::all();
+
+        $data['blood_type'] = $bloodType;
+        $data['province'] = $provinceId ? Province::find($provinceId) : null;
+        $data['component'] = $componentId ? Component::find($componentId) : null;
+
+        $data['stocks'] = $stocks;
+
+        return view('pmi.bloodStock', $data);
     }
 
     public function contact()
@@ -128,6 +171,7 @@ class PMIController extends Controller
             return view('forbidden');
         }
 
+        $user->donors()->delete();
         $user->delete();
         return redirect('find-friend')->with('success', "Berhasil menghapus user {$user->getOriginal('name')}");
     }
